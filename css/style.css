@@ -1,17 +1,37 @@
 p {
   font-size: 0.8rem;
 }
+
 .profile-img{
   width: 30px;
 }
 .fw-bold-5{
   font-weight: 500!important;
 }
+/* .sidebar-img{
+  width: 75px;
+} */
+
+
+@media screen and (max-width: 768px) {
+  /* border none for medium screen */
+  .b-md-none{
+    border: none!important;
+  }
+  
+}
 
 @media screen and (max-width: 575px) {
+  /* display none for small screen */
   .es-d-none {
     display: none;
   }
+  /* border none for small screen */
+  .b-d-none{
+    border: none!important;
+  }
+
+  /* padding for small screen */
   .es-p-0 {
     padding: 0;
   }
