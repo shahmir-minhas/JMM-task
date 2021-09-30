@@ -8,9 +8,6 @@ p {
 .fw-bold-5{
   font-weight: 500!important;
 }
-/* .sidebar-img{
-  width: 75px;
-} */
 
 
 @media screen and (max-width: 768px) {
@@ -18,7 +15,7 @@ p {
   .b-md-none{
     border: none!important;
   }
-  
+
 }
 
 @media screen and (max-width: 575px) {
